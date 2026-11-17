@@ -10,6 +10,10 @@ and shows spending statistics, high-value customers and a city-wise summary.
 - **Course:** B.Tech Computer Science and Engineering (1st Semester)
 - **University:** Rungta International Skills University
 
+  ## Technologies Used
+- Python 3
+- Pandas
+
 ## Features
 1. Loads `customers.csv` and handles the missing file error
 2. Shows mean, median, highest and lowest spending
@@ -22,8 +26,21 @@ and shows spending statistics, high-value customers and a city-wise summary.
 |---|---|
 | `customer_analyzer.py` | Main Python program |
 | `customers.csv` | Sample data (8 customers) |
-| `Report.pdf` | Project report |
 | `screenshots/` | Screenshots of all 4 test cases |
+
+## How to Run
+1. Install Python 3 from python.org
+2. Install Pandas:
+   ```
+   pip install pandas
+   ```
+3. Keep `customer_analyzer.py` and `customers.csv` in the same folder
+4. Run the program:
+   ```
+   python customer_analyzer.py
+   ```
+5. Choose an option from the menu (1 to 4)
+
 
 ## Test Cases
 | Test Case | Input | Result |
